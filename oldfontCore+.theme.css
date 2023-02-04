@@ -1,0 +1,112 @@
+/**
+  * @name fCore+
+  * @author Coreo#1082 - DevEvil#8745
+  * @version old font
+  * @description Edited version of Dark+ by Coreo
+  * @invite discord.gg/4uNVc46t4y
+*/
+
+@import url('https://devevil99.github.io/devevil/BetterDiscordAddons/Theme/Dark+/Dark+.theme.css');
+@import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/EmojiReplace/base/Apple.css);
+
+:root {
+  --font-primary: "Whitney", "gg sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif !important;
+  --font-display: "Whitney", "gg sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif !important;
+  --darkplus-bg: #212121;
+  --darkplus-bg2: #302f2f;
+  --darkplus-sec: #bb86fc;
+  --darkplus-links: #e5d0ff;
+  --darkplus-home-icon: url(https://media.discordapp.net/attachments/1022224424105168916/1022596178187124777/Video.gif?width=546&height=528);
+ --watermark-filter-invert: 0%;
+  --watermark-filter-sepia: 50%;
+  --watermark-filter-saturate: 3000%;
+  --watermark-filter-hue-rotate: 210deg;
+  --watermark-filter-brightness: 70%;
+  --watermark-filter-contrast: 200%;
+  --darkplus-emoji-picker-color: 210deg;
+}
+
+@font-face {
+    font-family: "Whitney";
+    font-style: normal;
+    font-weight: 300;
+    src: url("https://cdn.jsdelivr.net/gh/snappycreeper/olddiscordfont/fonts/Whitney-Normal-300.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "Whitney";
+    font-style: italic;
+    font-weight: 300;
+    src: url("https://cdn.jsdelivr.net/gh/snappycreeper/olddiscordfont/fonts/Whitney-Italic-300.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "Whitney";
+    font-style: normal;
+    font-weight: 400;
+    src: url("https://cdn.jsdelivr.net/gh/snappycreeper/olddiscordfont/fonts/Whitney-Normal-400.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "Whitney";
+    font-style: italic;
+    font-weight: 400;
+    src: url("https://cdn.jsdelivr.net/gh/snappycreeper/olddiscordfont/fonts/Whitney-Italic-400.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "Whitney";
+    font-style: normal;
+    font-weight: 500;
+    src: url("https://cdn.jsdelivr.net/gh/snappycreeper/olddiscordfont/fonts/Whitney-Normal-500.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "Whitney";
+    font-style: italic;
+    font-weight: 500;
+    src: url("https://cdn.jsdelivr.net/gh/snappycreeper/olddiscordfont/fonts/Whitney-Italic-500.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "Whitney";
+    font-style: normal;
+    font-weight: 600;
+    src: url("https://cdn.jsdelivr.net/gh/snappycreeper/olddiscordfont/fonts/Whitney-Normal-600.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "Whitney";
+    font-style: italic;
+    font-weight: 600;
+    src: url("https://cdn.jsdelivr.net/gh/snappycreeper/olddiscordfont/fonts/Whitney-Italic-600.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "Whitney";
+    font-style: normal;
+    font-weight: 700;
+    src: url("https://cdn.jsdelivr.net/gh/snappycreeper/olddiscordfont/fonts/Whitney-Normal-700.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "Whitney";
+    font-style: italic;
+    font-weight: 700;
+    src: url("https://cdn.jsdelivr.net/gh/snappycreeper/olddiscordfont/fonts/Whitney-Italic-700.woff2") format("woff2");
+}
+
+.titleBar-1it3bQ::before {
+    content: "C O R E +";
+    position: absolute;
+    top: 2px;
+    left: 10px;
+    height: 10px;
+    color: #bb86fc;
+    font-weight: 600;
+    font-size: 13px;
+}
+
+.titleBar-1it3bQ .wordmark-2u86JB {
+    display: none;
+}
